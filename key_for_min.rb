@@ -7,7 +7,7 @@
   num = 0
   name = nil
 name_hash.each do |key, value|
-  if value < num || value == 0  
+  if value < num || num == 0  
     num = value
     name = key
 
