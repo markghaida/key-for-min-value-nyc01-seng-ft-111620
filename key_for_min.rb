@@ -3,8 +3,7 @@
 
 # hash = {:blake => 500, :ashley => 2, :adam => 1}
  def key_for_min_value(name_hash)
-  num = 501
-  num_holder = 0
+  num = 0
   name = ""
 name_hash.each do |key, value|
   if value < num  
