@@ -6,7 +6,7 @@
   num = 0
   name = ""
 name_hash.each do |key, value|
-  if value < num  
+  if value > num || value == 0  
     num = value
     name = key
 
