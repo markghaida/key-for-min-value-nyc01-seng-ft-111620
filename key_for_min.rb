@@ -10,7 +10,7 @@ name_hash.each do |key, value|
   if value < num  
     num = value
     name = key
-    return num
+
 end
 end
  puts name
@@ -23,7 +23,7 @@ end
 #   name_hash.each do |key,value|
 
 #     #if the num is in it's intial state  
-#     #or if the value of the current key is less than the num
+#     #or if the value of the current value is less than the num
 #     #then: set the num to value and name to key
 
 
