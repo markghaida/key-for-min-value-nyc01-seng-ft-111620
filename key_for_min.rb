@@ -8,7 +8,7 @@
   name = ""
 name_hash.each do |key, value|
   if value < num  
-    num_holder = value
+    num = value
     name = key
 end
 end
