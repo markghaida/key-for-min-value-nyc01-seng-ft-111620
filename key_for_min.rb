@@ -12,7 +12,7 @@ name_hash.each do |key, value|
 
 end
 end
- puts name
+ name
 end 
 
 # def key_for_min_value(name_hash)
